@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <PropertyList include="dolphin-jsbsim-cnf.xml"> -->
+<PropertyList include="dolphin-yasim-cnf.xml">
+
+  <sim>
+    <description>Douglas Dolphin (YASim)</description>
+    <author>BARANGER Emmanuel (3D/FDM)</author>
+  </sim>
+
+</PropertyList>
+
