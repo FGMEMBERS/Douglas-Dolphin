@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
  
 <PropertyList>
 
@@ -362,6 +362,46 @@
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </rain>
+
+    <ocean>
+      <name>water</name>
+      <mode>looped</mode>
+      <path>Aircraft/Douglas-Dolphin/Sounds/wave.wav</path>	  
+      <condition>
+        <property>/sim/current-view/internal</property>
+        <not>
+          <greater-than>       
+            <property>/sim/model/door-positions/crew/position-norm</property>
+            <value>0.005</value>
+          </greater-than>
+        </not>	
+      </condition>
+      <volume>
+        <property>position/gear-agl-m</property>
+        <factor>-0.0009</factor>
+        <offset>0.118</offset>
+        <min>0.01</min>
+        <max>0.118</max>
+      </volume>
+    </ocean>
+  
+    <ocean-outside>
+      <name>water2</name>
+      <mode>looped</mode>
+      <path>Aircraft/Douglas-Dolphin/Sounds/wave.wav</path>	  
+      <condition>
+        <not>   
+          <property>/sim/current-view/internal</property>
+        </not>
+      </condition>
+      <volume>
+        <property>position/gear-agl-m</property>
+        <factor>-0.0009</factor>
+        <offset>0.235</offset>
+        <min>0.01</min>
+        <max>0.235</max>
+      </volume>
+    </ocean-outside>
 
   </fx>
 

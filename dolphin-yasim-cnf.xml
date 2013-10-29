@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-************************************************************************
-Douglas Dolphin
-Mars 2009 BARANGER Emmanuel
-************************************************************************
--->
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
 <PropertyList include="dolphin-base.xml">
 

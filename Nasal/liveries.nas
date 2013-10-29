@@ -1,2 +1,2 @@
-aircraft.livery.init("Aircraft/Bombardier-415/Models/Liveries");
+aircraft.livery.init("Aircraft/Douglas-Dolphin/Models/Liveries");
 
