@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>panel.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>panel</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <!-- ASI -->
+  <model>
+    <path>Aircraft/Douglas-Dolphin/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> -0.072 </x-m>
+      <y-m> -0.540 </y-m>
+      <z-m>  0.250 </z-m>
+    </offsets>
+  </model>
+
+  <!-- AI -->
+  <model>
+    <path>Aircraft/Douglas-Dolphin/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m> -0.075 </x-m>
+      <y-m> -0.430 </y-m>
+      <z-m>  0.250 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ALT -->
+  <model>
+    <path>Aircraft/Douglas-Dolphin/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m> -0.075 </x-m>
+      <y-m> -0.320 </y-m>
+      <z-m>  0.250 </z-m>
+    </offsets>
+  </model>
+
+  <!-- TURN -->
+  <model>
+    <path>Aircraft/Douglas-Dolphin/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m> -0.074 </x-m>
+      <y-m> -0.540 </y-m>
+      <z-m>  0.140 </z-m>
+    </offsets>
+  </model>
+
+  <!-- COMPASS -->
+  <model>
+    <path>Aircraft/Douglas-Dolphin/Models/Interior/Panel/Instruments/compass/compass.xml</path>
+    <offsets>
+      <x-m> -0.071 </x-m>
+      <y-m> -0.430 </y-m>
+      <z-m>  0.140 </z-m>
+    </offsets>
+  </model>
+
+  <!-- VSI -->
+  <model>
+    <path>Aircraft/Douglas-Dolphin/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m> -0.073 </x-m>
+      <y-m> -0.320 </y-m>
+      <z-m>  0.140 </z-m>
+    </offsets>
+  </model>
+
+  <!-- RPM Moteur gauche -->
+  <model>
+    <path>Aircraft/Douglas-Dolphin/Models/Interior/Panel/Instruments/rpm/rpm0.xml</path>
+    <offsets>
+      <x-m> -0.075 </x-m>
+      <y-m> -0.200 </y-m>
+      <z-m>  0.320 </z-m>
+    </offsets>
+  </model>
+
+  <!-- RPM Moteur droit -->
+  <model>
+    <path>Aircraft/Douglas-Dolphin/Models/Interior/Panel/Instruments/rpm/rpm1.xml</path>
+    <offsets>
+      <x-m> -0.075 </x-m>
+      <y-m> -0.120 </y-m>
+      <z-m>  0.320 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Fuel Tank 0 -->
+  <model>
+    <path>Aircraft/Douglas-Dolphin/Models/Interior/Panel/Instruments/fuel/fuel-qty0.xml</path>
+    <offsets>
+      <x-m> -0.074 </x-m>
+      <y-m> -0.200 </y-m>
+      <z-m>  0.240 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Fuel Tank 1 -->
+  <model>
+    <path>Aircraft/Douglas-Dolphin/Models/Interior/Panel/Instruments/fuel/fuel-qty1.xml</path>
+    <offsets>
+      <x-m> -0.074 </x-m>
+      <y-m> -0.120 </y-m>
+      <z-m>  0.240 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Fuel Flow 0 -->
+  <model>
+    <path>Aircraft/Douglas-Dolphin/Models/Interior/Panel/Instruments/fuel/fuelflow0.xml</path>
+    <offsets>
+      <x-m> -0.074 </x-m>
+      <y-m> -0.206 </y-m>
+      <z-m>  0.170 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Fuel Flow 1 -->
+  <model>
+    <path>Aircraft/Douglas-Dolphin/Models/Interior/Panel/Instruments/fuel/fuelflow1.xml</path>
+    <offsets>
+      <x-m> -0.074 </x-m>
+      <y-m> -0.126 </y-m>
+      <z-m>  0.170 </z-m>
+    </offsets>
+  </model>
+
+</PropertyList>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList include="dolphin-base.xml">
+
+  <sim>
+
+    <description>Douglas Dolphin (YASim)</description>
+    <author>BARANGER Emmanuel (3D/FDM)</author>
+    <flight-model>yasim</flight-model>
+    <aero>dolphin-yasim</aero>
+
+  </sim>
+    
+</PropertyList>
