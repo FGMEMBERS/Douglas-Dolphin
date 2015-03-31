@@ -1,23 +1,15 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 
 <PropertyList>
 
-  <key n="68">
-    <name>D</name>
-    <desc>Cabin doors</desc>
-    <binding>
-      <command>nasal</command>
-      <script>doors.passenger.toggle();</script>
-    </binding>
-  </key>
-
-  <key n="100">
+   <key n="100">
     <name>d</name>
-    <desc>Doors</desc>
+    <desc>Canopy</desc>
     <binding>
      <command>nasal</command>
-     <script>doors.crew.toggle();</script>
+     <script>dolphin.doorsystem.crewexport();</script>
     </binding>
-  </key>
+   </key>
 
 </PropertyList>
+
